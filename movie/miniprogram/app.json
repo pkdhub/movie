@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/detail/detail",
+    "pages/mymap/mymap",
+    "pages/login/login"
+  ],
+"permission": {
+  "scope.userLocation": {
+    "desc": "你的位置信息将用于小程序位置接口  的效果展示" 
+  }
+},
+  "window": {
+    "backgroundColor": "#000",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f3f0f0",
+    "navigationBarTitleText": "影导",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "color":"8a8a8a",
+    "selectedColor": "#FFCB57",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "电影",
+      "iconPath": "images/主页.png",
+      "selectedIconPath": "images/主页 (2).png"
+    },
+    {
+      "pagePath": "pages/mymap/mymap",
+      "text": "地图",
+      "iconPath": "images/地图.png",
+      "selectedIconPath": "images/地图 (1).png"
+    },
+    {
+      "pagePath": "pages/login/login",
+      "text": "登陆",
+      "iconPath": "images/登陆.png",
+      "selectedIconPath": "images/登陆 (1).png"
+    }
+    ]
+  }
+}

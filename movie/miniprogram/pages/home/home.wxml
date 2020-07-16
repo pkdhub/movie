@@ -1,0 +1,17 @@
+<!--pages/home/home.wxml-->
+<view wx:for="{{list}}" wx:key="index" class="movie">
+<!-- 左边海报 -->
+<image src="{{item.images.small}}" class="movie-img"/>
+<!-- 右边详情 -->
+<view class="movie-info">
+<!-- 电影标签 -->
+<view class="movie-title ellipsis">{{item.title}}</view>
+<!-- 评分 -->
+<view class="movie-score">{{item.rating.average}}</view>
+<!-- 年份-->
+<view>{{item.year}}</view>
+<!-- 电影详情按钮 -->
+<button class="movie-btn" bindtap="detail" data-id="{{item.id}}">详情</button>
+</view>
+
+</view>

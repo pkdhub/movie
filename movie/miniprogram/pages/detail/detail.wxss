@@ -1,0 +1,67 @@
+/* pages/detail/detail.wxss */
+/*1:背景图片 模糊*/
+.detail-container{
+  height:400rpx;/*元素高度*/
+  opacity: 0.9;/*透明度*/
+  filter:blur(40px);
+}
+/*2:灰色遮罩层*/
+.detail-mask{
+  position: absolute;  /*绝对定位*/
+  width:100%;
+  height:400rpx;/*元素高度*/
+  top:0;
+  left:0;
+  background: #333333;
+  z-index:-1;/*显示模糊图片下方*/
+}
+/*3:电影信息*/
+.detail-info{
+  position: absolute; /*绝对定位*/
+  width:100%;         /*元素宽度和高度*/
+  height:400rpx;
+  top:0;
+  left:0;
+  display: flex;     /*指定元素弹幕布局:默认水平*/
+  padding: 20rpx;
+}
+/*4:电影信息-左侧小图片*/
+.detail-img{
+  width:280rpx;   /*小图片宽度与高度*/
+  height:90%;
+  margin-right:24rpx;/*与右侧文字间距*/
+}
+/*5:电影信息-右侧电影信息*/
+.info{
+  color:#fff;
+  font-size:24rpx;
+  line-height:35rpx;
+}
+/*6:电影描述*/
+.desc{
+  color:#555;
+  font-size:24rpx;
+  padding:20rpx;
+}
+/*7:预览图片*/
+.info-img{
+  width:200rpx;/*预览图宽度*/
+  height:200rpx;
+  margin-right:20rpx;
+}
+.info-title{
+  font-size: 30rpx;
+  margin-bottom: 15rpx;
+  margin-top: 5rpx;
+  width: 450rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.info-sc{
+  color:#faaf00;
+  margin-bottom:15rpx;
+}
+.info-countries{
+ margin-bottom:15rpx;
+}

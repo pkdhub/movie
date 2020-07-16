@@ -1,0 +1,7 @@
+<!--pages/login/login.wxml-->
+<button type="primary" style="width:80%"
+ open-type="getUserInfo"
+ bindgetuserinfo="getUserInfo3">微信登陆</button>
+ <view style="margin-top:25rpx"></view>
+ <button type="primary" style="width:80%"
+ wx:if="{{userId}}" bindtap="esix">退出</button>

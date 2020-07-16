@@ -1,0 +1,32 @@
+<!-- <map    定位影院
+id="map"
+longitude="105.539691"
+latitude="29.987002"
+scale="17"  
+style="width:100%;height:600rpx"
+show-location="true" 
+>
+</map> -->
+
+<!-- 定位自己 -->
+<map    
+id="map2"   
+longitude="{{longitude}}"
+latitude="{{latitude}}"
+scale="20"
+style="width:100%;height:600rpx"
+show-location="true" 
+></map>
+
+<view class="wei">
+您当前定位在：
+</view>
+<view class="wei2">
+经度:
+<text>{{longitude}}</text>
+</view>
+<view class="wei2">
+纬度:
+<text>{{latitude}}</text>
+</view>
+

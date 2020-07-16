@@ -1,0 +1,11 @@
+/* pages/mymap/mymap.wxss */
+.wei{
+  margin-top:20rpx;
+}
+.wei2{
+  margin-left: 240rpx;
+}
+.wei2>text{
+  color:red;
+  font-size: 40rpx;
+}
